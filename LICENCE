@@ -1,0 +1,41 @@
+Robombs
+=======
+To quote the original author of this game:
+
+  Please note that the sources contain some third party sources (the packages
+  that are not labeled "robombs..."). Other licenses may apply for these
+  sources. For my sources, do whatever you like with them...
+
+Quote is taken from http://jpct.de/robombs.game/download/.
+
+Above statement is true for every modification of the game made by me.
+
+
+J-Ogg - libraries for reading Ogg files and decoding different contained formats
+================================================================================
+Quote about the licence from author of this libraries:
+
+  I'm not a fan of legal nonsence, so I'll try to keep this short :) You are
+  free to use, modify, resdistribute or include this software in your own free
+  or commercial software. The only restriction is, that you make it obvious that
+  your software is based on J-Ogg by including this notice in the documentation,
+  about box or whereever you feel apropriate:
+    "This software is based on or using the J-Ogg library available from
+     http://www.j-ogg.de and copyrighted by Tor-Einar Jarnbjo."
+
+Quote is taken from http://www.j-ogg.de/core/main?/download-libraries.html.
+
+
+Paulscode
+=========
+Author: Paul Lamb
+http://www.paulscode.com
+
+You are free to use this library for any purpose, commercial or otherwise.
+You can alter the code, and/or distribute it any way you like.
+
+If you change the code, please document the changes made before
+redistributing it, so other users know it is not the original code.
+
+You are not required to give me credit, but it would be nice :)
+
