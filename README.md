@@ -2,8 +2,8 @@ Robombs
 =======
 Multiplayer bombing fun - a free LAN game inspired by Bomberman!
 
-I did NOT write this game. Source of this game is taken from
-http://jpct.de/robombs.game/
+I did NOT write this game. Source of this game is taken from 
+http://jpct.de/robombs.game/ 
 Copyright © 2008 by EgonOlsen
 
 I only made some minor modification of the game to make it, IMHO, more fun.
@@ -28,19 +28,19 @@ To run this game, you still need game data from http://jpct.de/robombs.game.
 
 
 ## Credits ##
-(http://jpct.de/robombs.game/credits)
+http://jpct.de/robombs.game/credits
 
 Robombs is a single person's afford to create a free and fun multiplayer game
 greatly inspired by the great Bomberman from Hudson-Soft. However, some parts of
 Robombs weren't done by EgonOlsen but contributed by other talented people
 from the jPCT community or from elsewhere.
 
-  3D- and game-engine, network programming: EgonOlsen (http://www.jpct.net)
-  3D sound system: Paulscode (http://www.paulscode.com)
-  Font renderer and texture packer: r.a.f.t. (http://www.aptalkarga.com)
-  Invader model and animation: Reed Hawker (http://www.alternatedimension.com)
-  Additional animations: fireside (http://fireside7games.com)
-  Sounds: PacDV (http://www.pacdv.com/sounds)
+- 3D- and game-engine, network programming: EgonOlsen (http://www.jpct.net)
+- 3D sound system: Paulscode (http://www.paulscode.com)
+- Font renderer and texture packer: r.a.f.t. (http://www.aptalkarga.com)
+- Invader model and animation: Reed Hawker (http://www.alternatedimension.com)
+- Additional animations: fireside (http://fireside7games.com)
+- Sounds: PacDV (http://www.pacdv.com/sounds)
           and PartnersInRhyme (http://www.partnersinrhyme.com/pir/PIRsfx.shtml)
-  Textures: EgonOlsen (http://www.jpct.net/) and various texture packs
+- Textures: EgonOlsen (http://www.jpct.net/) and various texture packs
 
