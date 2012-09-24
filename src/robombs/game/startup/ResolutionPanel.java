@@ -109,8 +109,8 @@ public class ResolutionPanel extends JPanel {
 			org.lwjgl.opengl.DisplayMode dm = new org.lwjgl.opengl.DisplayMode(1, 1);
 			Display.setDisplayMode(dm);
 			Display.create(new PixelFormat());
-			vendor = GL11.glGetString(GL11.GL_VENDOR);
-			renderer = GL11.glGetString(GL11.GL_RENDERER);
+			vendor = "Unknown vendor"; //GL11.glGetString(GL11.GL_VENDOR);
+			renderer = "Unknown renderer"; //GL11.glGetString(GL11.GL_RENDERER);
 			canDoShadows = GLContext.getCapabilities().GL_ARB_shadow;
 			canDoBloom = GLContext.getCapabilities().GL_EXT_texture_rectangle;
 			canDoAA = GLContext.getCapabilities().GL_ARB_multisample;

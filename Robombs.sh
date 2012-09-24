@@ -1,0 +1,1 @@
+java -Xmx768m -Xms256m -Djava.library.path=lib/lwjgl-2.8.4/native/linux -cp lib/jpct/jpct.jar:lib/lwjgl-2.8.4/jar/lwjgl.jar:lib/lwjgl-2.8.4/jar/lwjgl_util.jar:bin/bin.jar:. robombs.game.startup.StartUp
