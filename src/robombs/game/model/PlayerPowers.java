@@ -18,6 +18,7 @@ public class PlayerPowers {
 	private int firePower=20;
 	private float water=100;
 	private long waterTime=0;
+	private Ticker kicker=new Ticker(20000);
 	private boolean canKick=false;
 	private Ticker sickness=new Ticker(20000);
 	private int sick=NOT_SICK;
@@ -51,10 +52,14 @@ public class PlayerPowers {
 	}
 	
 	public boolean canKick() {
+		if (kicker.getTicks()>0) {
+			canKick=false;
+		}
 		return canKick;
 	}
 	
 	public void setKick(boolean can) {
+		kicker.reset();
 		canKick=can;
 	}
 	
