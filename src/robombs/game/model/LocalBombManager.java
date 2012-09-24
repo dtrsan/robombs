@@ -167,7 +167,7 @@ public class LocalBombManager extends LocalObjectManager {
     public void moveBombs(World world, long ticks) {
     	for (LocalObject bomb : objs) {
     		LocalBomb lb=(LocalBomb) bomb; // This cast is save!
-    		if (bomb.getValue()!=VALUE_INACTIVE && bomb.getValue()!=VALUE_EXPLODING) {
+    		if (bomb.getValue()!=VALUE_EXPLODING) {
     			if (lb.isMoving() && lb.getView()!=null) {
     				SimpleVector speed=new SimpleVector(lb.getSpeed());
     				speed.scalarMul(ticks);
