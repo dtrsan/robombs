@@ -289,8 +289,23 @@ public class CrateManager {
 		SimpleVector pos=crate.getTransformedCenter();
 		GridPosition gp=level.getMask().getGrid(pos.x, pos.z);
 		if (level.getMask().getMaskAt(gp)==MapMask.CRATE) {
-			// Do this only if there is no item in that crate
-			level.getMask().setMaskAt(gp, MapMask.FLOOR);
+			// if crate is empty try to generate random item
+			float it=(float) Math.random();
+			if (it<1) {
+				level.getMask().setMaskAt(gp, MapMask.FLOOR);
+			}
+			if (it<0.4) {
+				level.getMask().setMaskAt(gp, MapMask.DISEASE_ITEM);
+			}
+			if (it<0.3) {
+				level.getMask().setMaskAt(gp, MapMask.FIREPOWER_ITEM);
+			}
+			if (it<0.2) {
+				level.getMask().setMaskAt(gp, MapMask.BOMB_ITEM);
+			}
+			if (it<0.1) {
+				level.getMask().setMaskAt(gp, MapMask.KICK_ITEM);
+			}
 		}
 	}
 	
